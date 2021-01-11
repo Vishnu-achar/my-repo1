@@ -1,0 +1,26 @@
+<html>
+    {% load static %}
+    <head>
+        <link rel="stylesheet" href="{% static "css/1.css" %}" >
+    </head>
+    <body bgcolor="#f5e65d" >
+        <center>
+            <h1><u>{{name}}'s favourite details</u></h1>
+        </center>
+        <div>
+            <h2>S/O: {{father}}</h2>
+            <h3><a href="https://www.instagram.com/suresheachar/">click here</a></h3>
+            <img src="{% static "images/IMG_7092.JPG" %}">   
+        </div><br><br>
+        <div>
+            <h2>Instagram: {{instagram}}</h2>
+            <h3><a href="https://www.instagram.com/vishnuaachar/">click here</a></h3>
+            <img src="{% static "images/imgv.JPG" %}">   
+        </div><br><br>
+        <div>
+            <h2>favourite subject: {{favsub}}</h2>
+            <h3><a href="https://www.python.org/">click here</a></h3>
+            <img src="{% static "images/py.PNG" %}">   
+        </div><br><br>
+    </body>
+</html>
